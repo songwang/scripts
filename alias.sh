@@ -1,6 +1,13 @@
+alias myalias='wget https://raw.githubusercontent.com/songwang/scripts/main/alias.sh;source alias.sh;rm alias.sh'
 alias ls='ls -l --color=auto'
 alias vi=vim
 alias python=python3
+
+#docker command
+alias dkps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}"'
+alias dki='docker image'
+dke(){ docker exec -it $1 bash; }
+dkr(){ docker run --name $1 --hostname $1 -it $1 bash;}
 
 alias c='clear'
 alias f='find -name'
