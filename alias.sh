@@ -8,6 +8,7 @@ alias python=python3
 alias ports='netstat -nlpt'
 alias ss='ss -at'
 alias lsof='lsof -i -P -n'
+#lsof -i :7496
 
 #docker command
 alias dkps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}"'
