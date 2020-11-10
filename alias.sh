@@ -1,7 +1,13 @@
+#PS1='$(pwd):'
 alias myalias='wget https://raw.githubusercontent.com/songwang/scripts/main/alias.sh;source alias.sh;rm alias.sh'
+
 alias ls='ls -l --color=auto'
 alias vi=vim
 alias python=python3
+
+alias ports='netstat -nlpt'
+alias ss='ss -at'
+alias lsof='lsof -i -P -n'
 
 #docker command
 alias dkps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}"'
