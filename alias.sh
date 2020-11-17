@@ -1,4 +1,5 @@
 #PS1='$(pwd):'
+#PS1='$(whoami)@$(hostname):$(pwd):'
 alias myalias='wget https://raw.githubusercontent.com/songwang/scripts/main/alias.sh;source alias.sh;rm alias.sh'
 
 alias ls='ls -l --color=auto'
